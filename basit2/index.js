@@ -9,7 +9,12 @@ console.log(buttons,"btn")
 
 //console.log(buttons)
 
-//foreach 
+//foreach  kullandim her button icin kontrol edecm
+//burada data=targeyt id dikkat et 
+//consiol log goruyoruy hangi button gelecekse on agore ayarlama yaptik 
+
+
+
 buttons.forEach(button =>{
     const dosya1 = document.querySelector(button.dataset.target)
     button.addEventListener("click",()=>{
