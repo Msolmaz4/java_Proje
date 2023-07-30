@@ -7,27 +7,27 @@ let  y=4
 
 
 const gy = document.querySelector("#gizle")
-const button = document.getElementById('button')
+const button = document.querySelector('#button')
+
 console.log(button,"button")
 console.log(gy)
 
 button.addEventListener("click",()=>{
 
-    //burda birinin icindeki belli bir seyi almk icin getAttribute ve data set kullaniriy
+//burda birinin icindeki belli bir seyi almk icin getAttribute ve data set kullaniriy
 
 
-console.log(gy.getAttribute("id"))
-console.log(gy.dataset.mami)
-
-    //console.log('butotn atikladin')
+//console.log(gy.getAttribute("id"))
+//console.log(gy.dataset.mami)
+//console.log('butotn atikladin')
 
  if(gy.style.display === ''){
     gy.style.display = "none"
     button.innerText = "goster"
-    //buttona goster cevirmek gerekiyor
+//buttona goster cevirmek gerekiyor
 
  }else{
-    // console.log("sayfadda giyli")
+// console.log("sayfadda giyli")
     gy.style.display= ""
     button.innerText = "gizle"
  }
