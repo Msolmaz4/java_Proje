@@ -4,6 +4,8 @@ const btn1 = document.querySelector('#btn1')
 
 btn1.addEventListener('click',()=>{
    //console.log(in1.value,in2.value)
+   //denemeadd .
+   
      let sayac = 0 
     const table = document.createElement("table")
     for(let i = 0;i<in1.value;i++)
