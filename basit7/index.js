@@ -11,6 +11,7 @@ btn1.addEventListener('click',()=>{
     let fd = in2.value
     const tr =document.createElement("tr")
     const td = document.createElement("td")
+    //derleme yapildi
 
 
     for(let f = 1;f<=fd ;f++){
@@ -22,8 +23,6 @@ btn1.addEventListener('click',()=>{
 
     for(let i = 1;i<=df ;i++)
     {console.log(i)
-      
-
         const op = document.createElement('p')
          op.innerText = `sutun${i}`
          tr.appendChild(op)
