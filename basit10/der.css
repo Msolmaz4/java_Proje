@@ -7,7 +7,7 @@ table{
 td{
     background-color: ;
 }
-table .btn{
+table .btnOpt,.btnRakam{
     width: 60px;
     background: gray;
     text-align: center;
