@@ -1,0 +1,32 @@
+table{
+    border: 1px solid #000;
+    background:#efefef;
+    border-spacing: 10px;
+    text-align: center
+}
+td{
+    background-color: ;
+}
+table .btn{
+    width: 60px;
+    background: gray;
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    font-size: 1.5em;
+
+}
+#islem ,#gosterge{
+    padding: 5px;
+    text-align: right;
+}
+#gosterge{
+    height: 60px;
+    background: #ddfafa;
+    color: #333;
+    font-size: 1.8em;
+    text-align: right;
+    line-height: 40px;
+    padding: 10px;
+    box-sizing: border-box;
+}
