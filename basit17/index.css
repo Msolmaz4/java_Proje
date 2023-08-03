@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:#000 ;
+}
+#oyun{
+    width: 800px;
+    height: 200px;
+    border: 1px solid #000;
+    background: #fff;
+    margin: 100px auto;
+    position: relative;
+
+}
+#trex{
+    position: absolute;
+     width: 70px;
+     height: 90px;
+    border: 2px solid gold;
+    background: url(images.png);
+    bottom: 0;
+}
+#kaktus{
+    position: absolute;
+     width: 70px;
+     height: 90px;
+    border: 2px solid gold;
+    background: url(images.png);
+    bottom: 0;
+    left: 700px;
+}
