@@ -17,8 +17,8 @@ body{
 }
 #trex{
     position: absolute;
-     width: 70px;
-     height: 90px;
+    width: 70px;
+    height: 20px;
     border: 2px solid gold;
     background: url(images.png);
     bottom: 0;
@@ -28,8 +28,8 @@ body{
 }
 #kaktus{
     position: absolute;
-     width: 70px;
-     height: 90px;
+    width: 40px;
+    height: 60px;
     border: 2px solid gold;
     background: url(images.png);
     bottom: 0;

@@ -24,7 +24,18 @@ setInterval(mesajYaz, 5000);
 
 //burada tiklaayinca yiplama ve carpamayi ayarlayacagiy ;nce css cekiyoruy sonra onunda bottom degerini aliyoryuy
 const carpisma = setInterval(function(){
-    var  trexBott =window.getComputedStyle(trex).getPropertyValue('bottom')
+    var  trexBott =parseInt(window.getComputedStyle(trex).getPropertyValue('bottom'))
    // console.log(trexBott) sonra bunu parseInt tam ayiya cevirecem
-   
+    //console.log(trexBott) 
+
+
+    var  kakBott =parseInt(window.getComputedStyle(kaktus).getPropertyValue('left'))
+    //console.log(kakBott)
+      
+    if(kakBott > 0 && kakBott< 40 && trexBott<40)
+    {
+        kaktus.classList.remove('kaktus-animate')
+        alert('azagini denk al')
+    }
+ 
 }) 
