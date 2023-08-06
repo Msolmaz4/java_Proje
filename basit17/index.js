@@ -15,7 +15,7 @@ function zipla() {
 }
 
 // setInterval Javascript ile belirli aralıklar ile aynı işlemi yapmak için geliştirilmiş bir metotdur. Süre milisaniye olarak belirtilir ve belirtilen süre beklendikten sonra istenen kod çalıştırılır. Sonrasında yine belirlenen süre kadar bekleme yapılır ve sonrasında tekrar kod çalıştırılır. Bu böylece devam eder. Eğer program sonlandırılır veya clearInterval çağrılırsa bu işlem durdurulur.
-
+//yayilar ekrani ka[sason diye viemden wrap ya[tim]]
 
 const mesajYaz = () => {
     console.log("setIterval Calisti");
