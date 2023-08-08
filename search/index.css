@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: aqua;
+}
+.ilk{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    position: relative;
+   
+}
+input{
+    width: 400px;
+    height: 40px;
+    outline:none ;
+    font-size: 16px;
+    padding-left: 50px;
+    background-color: transparent;
+}
+.ikon{
+    position: absolute;
+    left: 780px;
+    
+}
+.hea{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.box{
+    height: 180px;
+    width: 200px;
+    margin: 20px;
+    border: 2px solid rosybrown;
+    
+    text-align: center;
+    padding-top: 90px;
+}
+.box:hover{
+    transform: scale(1.05);
+    z-index: 1;
+    box-shadow: 0 5px rgba(0,0,0,0.2);
+}
