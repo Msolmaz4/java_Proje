@@ -31,6 +31,12 @@ input{
     flex-wrap: wrap;
     margin: 20px;
 }
+.no{
+  display: none;
+  width: 100%;
+  text-align: center;
+  margin: 50px auto;
+}
 .box{
     height: 180px;
     width: 200px;
