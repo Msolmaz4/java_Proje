@@ -9,8 +9,11 @@
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-    position: relative;
    
+   
+}
+.ayar{
+    position: relative;
 }
 input{
     width: 400px;
@@ -19,12 +22,14 @@ input{
     font-size: 16px;
     padding-left: 50px;
     background-color: transparent;
+    position: absolute;
+
 }
 .ikon{
-    position: absolute;
-    left: 780px;
-    
+    padding-left: 5px;
+    padding-top: 8px;
 }
+
 .hea{
     width: 100%;
     display: flex;
